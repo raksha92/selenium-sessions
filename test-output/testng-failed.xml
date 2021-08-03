@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Suite1]" parallel="tests">
+  <parameter name="browser" value="safari"/>
+  <test thread-count="3" verbose="3" name="Orange Hrm test cases - safari(failed)" parallel="tests">
+    <classes>
+      <class name="myTests.OrangeHrm">
+        <methods>
+          <include name="searchProdTest"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="enterNameTest"/>
+        </methods>
+      </class> <!-- myTests.OrangeHrm -->
+    </classes>
+  </test> <!-- Orange Hrm test cases - safari(failed) -->
+  <test thread-count="3" verbose="3" name="Orange Hrm test cases - firefox(failed)" parallel="tests">
+    <classes>
+      <class name="myTests.OrangeHrm">
+        <methods>
+          <include name="searchProdTest"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="enterNameTest"/>
+        </methods>
+      </class> <!-- myTests.OrangeHrm -->
+    </classes>
+  </test> <!-- Orange Hrm test cases - firefox(failed) -->
+  <test thread-count="3" verbose="3" name="Orange Hrm test cases - chrome(failed)" parallel="tests">
+    <classes>
+      <class name="myTests.OrangeHrm">
+        <methods>
+          <include name="searchProdTest"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="enterNameTest"/>
+        </methods>
+      </class> <!-- myTests.OrangeHrm -->
+    </classes>
+  </test> <!-- Orange Hrm test cases - chrome(failed) -->
+  <test thread-count="3" verbose="3" name="CRM pro tests(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="myTests.CrmPro">
+        <methods>
+          <include name="usernameTest"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="passwordTest"/>
+        </methods>
+      </class> <!-- myTests.CrmPro -->
+    </classes>
+  </test> <!-- CRM pro tests(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

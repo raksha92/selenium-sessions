@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="42697" started-at="2021-04-11T13:27:32Z" finished-at="2021-04-11T13:28:15Z">
+    <groups>
+    </groups>
+    <test name="Orange Hrm test cases - chrome" duration-ms="17237" started-at="2021-04-11T13:27:32Z" finished-at="2021-04-11T13:27:49Z">
+      <class name="myTests.OrangeHrm">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:myTests.OrangeHrm@780cb77]" name="beforeTest" is-config="true" duration-ms="3044" started-at="2021-04-11T13:27:32Z" finished-at="2021-04-11T13:27:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="enterNameTest()[pri:0, instance:myTests.OrangeHrm@780cb77]" name="enterNameTest" duration-ms="14002" started-at="2021-04-11T13:27:35Z" finished-at="2021-04-11T13:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterNameTest -->
+        <test-method status="PASS" signature="searchProdTest()[pri:0, instance:myTests.OrangeHrm@780cb77]" name="searchProdTest" duration-ms="169" started-at="2021-04-11T13:27:49Z" finished-at="2021-04-11T13:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProdTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:myTests.OrangeHrm@780cb77]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-04-11T13:27:49Z" finished-at="2021-04-11T13:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- myTests.OrangeHrm -->
+    </test> <!-- Orange Hrm test cases - chrome -->
+    <test name="Orange Hrm test cases - firefox" duration-ms="32902" started-at="2021-04-11T13:27:32Z" finished-at="2021-04-11T13:28:05Z">
+      <class name="myTests.OrangeHrm">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:myTests.OrangeHrm@13acb0d1]" name="beforeTest" is-config="true" duration-ms="9502" started-at="2021-04-11T13:27:32Z" finished-at="2021-04-11T13:27:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="enterNameTest()[pri:0, instance:myTests.OrangeHrm@13acb0d1]" name="enterNameTest" duration-ms="23351" started-at="2021-04-11T13:27:42Z" finished-at="2021-04-11T13:28:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterNameTest -->
+        <test-method status="PASS" signature="searchProdTest()[pri:0, instance:myTests.OrangeHrm@13acb0d1]" name="searchProdTest" duration-ms="45" started-at="2021-04-11T13:28:05Z" finished-at="2021-04-11T13:28:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProdTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:myTests.OrangeHrm@13acb0d1]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-04-11T13:28:05Z" finished-at="2021-04-11T13:28:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- myTests.OrangeHrm -->
+    </test> <!-- Orange Hrm test cases - firefox -->
+    <test name="Amazon tests" duration-ms="23861" started-at="2021-04-11T13:27:50Z" finished-at="2021-04-11T13:28:13Z">
+      <class name="myTests.AmazonTests">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:myTests.AmazonTests@1a0dcaa]" name="beforeTest" is-config="true" duration-ms="3792" started-at="2021-04-11T13:27:50Z" finished-at="2021-04-11T13:27:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="emailTest()[pri:0, instance:myTests.AmazonTests@1a0dcaa]" name="emailTest" duration-ms="19837" started-at="2021-04-11T13:27:53Z" finished-at="2021-04-11T13:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailTest -->
+        <test-method status="PASS" signature="usernameTest()[pri:0, instance:myTests.AmazonTests@1a0dcaa]" name="usernameTest" duration-ms="227" started-at="2021-04-11T13:28:13Z" finished-at="2021-04-11T13:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernameTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:myTests.AmazonTests@1a0dcaa]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-04-11T13:28:13Z" finished-at="2021-04-11T13:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- myTests.AmazonTests -->
+    </test> <!-- Amazon tests -->
+    <test name="CRM pro tests" duration-ms="42680" started-at="2021-04-11T13:27:32Z" finished-at="2021-04-11T13:28:15Z">
+      <class name="myTests.CrmPro">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:myTests.CrmPro@6ab7a896]" name="beforeTest" is-config="true" duration-ms="22536" started-at="2021-04-11T13:27:32Z" finished-at="2021-04-11T13:27:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="passwordTest()[pri:0, instance:myTests.CrmPro@6ab7a896]" name="passwordTest" duration-ms="19963" started-at="2021-04-11T13:27:55Z" finished-at="2021-04-11T13:28:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordTest -->
+        <test-method status="PASS" signature="usernameTest()[pri:0, instance:myTests.CrmPro@6ab7a896]" name="usernameTest" duration-ms="177" started-at="2021-04-11T13:28:15Z" finished-at="2021-04-11T13:28:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernameTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:myTests.CrmPro@6ab7a896]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-04-11T13:28:15Z" finished-at="2021-04-11T13:28:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- myTests.CrmPro -->
+    </test> <!-- CRM pro tests -->
+  </suite> <!-- Suite1 -->
+</testng-results>

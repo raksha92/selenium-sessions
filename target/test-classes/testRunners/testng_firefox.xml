@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" thread-count="3" parallel="tests" verbose="3" >
+
+  <parameter name="browser" value="firefox" />
+  <test name="Orange Hrm test cases" >
+    <classes>
+       <class name="myTests.OrangeHrm" />
+    </classes>
+  </test>
+ 
+  <test name="CRM pro tests">
+   <parameter name="browser" value="firefox" />
+    <classes>
+      <class name="myTests.CrmPro" />
+    </classes>
+  </test>
+  
+  <test name="Amazon tests">
+   <parameter name="browser" value="firefox" />
+    <classes>
+      <class name="myTests.AmazonTests" />
+    </classes>
+  </test>
+  
+</suite>
